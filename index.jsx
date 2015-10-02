@@ -1,5 +1,7 @@
 require('material-design-lite/material.min.css');
+require('./styles/main.css');
 
 import React from 'react';
+import Nav from './src/nav/nav.jsx';
 
-React.render(<h1>Hello</h1>, document.querySelector('#main'));
+React.render(<Nav />, document.querySelector('.rcmdl-nav'));
