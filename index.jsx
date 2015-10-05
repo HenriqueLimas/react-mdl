@@ -1,4 +1,5 @@
 require('material-design-lite/material.min.css');
+require('material-design-lite/material.min.js');
 require('./styles/main.css');
 
 import React from 'react';
